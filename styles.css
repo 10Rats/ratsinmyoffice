@@ -1,0 +1,60 @@
+body {
+    font-family: monospace;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+div {
+    word-wrap: break-all;
+}
+
+table {
+    text-align: left;
+}
+
+th, td {
+    padding-right: 50px;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    border: 1px black solid;
+}
+
+.tag-block {
+    border: 2px blue dotted;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.quotation div {
+    display: inline-block;
+    font-style: italic;
+    margin-right: -5px;
+    word-break: break-all;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.hometitle {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+}
