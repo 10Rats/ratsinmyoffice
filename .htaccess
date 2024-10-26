@@ -10,7 +10,7 @@
 
     # remove html suffix
     RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-    RewriteRule ^ /%1 [NC,L,R]
+    RewriteRule ^(.*)\.html$ /$1 [L,R=301]
 
     # hide index.html on URI
     RewriteRule ^index\.html$ / [R=301,L]
