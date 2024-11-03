@@ -47,7 +47,7 @@ audio {
     margin-right: -5px;
 }
 
-.red { /** whatever can help to advance to the next stage **/
+.red { /** highlight important or missable(?) stuffs **/
     color: red;
     display: inline-block;
 }
@@ -73,4 +73,13 @@ audio {
     width: 100%;
     height: auto;
     float: right;
+}
+
+#ratanimation {
+    z-index: 9;
+    float: right;
+    position: relative;
+    bottom: 110px;
+    border-width: 0px;
+    width: 200px;
 }
