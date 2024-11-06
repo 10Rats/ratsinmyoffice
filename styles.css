@@ -1,8 +1,8 @@
 body {
     font-family: monospace;
     font-size: 14px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     background-image: url("assets/wallpaper.svg");
     background-size: 300px;
     background-repeat: repeat;
@@ -32,6 +32,10 @@ img {
 
 audio {
     border-radius: 80px;
+}
+
+dfn {
+    font-weight: bolder;
 }
 
 .tag-block {
@@ -73,6 +77,10 @@ audio {
     width: 100%;
     height: auto;
     float: right;
+}
+
+#aboutmepic {
+    border-width: 0px;
 }
 
 #ratanimation {
