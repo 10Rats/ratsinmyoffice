@@ -9,12 +9,8 @@ body {
     background-position: top right, 50%, 50%;
 }
 
-table {
-    text-align: left;
-}
-
-th, td {
-    padding-right: 50px;
+p {
+    margin: 0px;
 }
 
 a, a:visited {
@@ -26,16 +22,20 @@ a:hover {
     text-decoration: underline;
 }
 
+table {
+    text-align: left;
+}
+
+th, td {
+    padding-right: 50px;
+}
+
 img {
     border: 1px black solid;
 }
 
 audio {
     border-radius: 80px;
-}
-
-dfn {
-    font-weight: bolder;
 }
 
 .tag-block {
@@ -45,15 +45,10 @@ dfn {
     padding: 5px;
 }
 
-.quotation div {
+.quotation p {
     display: inline-block;
     font-style: italic;
     margin-right: -5px;
-}
-
-.red { /** highlight important or missable(?) stuffs **/
-    color: red;
-    display: inline-block;
 }
 
 .blue { 
@@ -81,13 +76,4 @@ dfn {
 
 #aboutmepic {
     border-width: 0px;
-}
-
-#ratanimation {
-    z-index: 9;
-    float: right;
-    position: relative;
-    bottom: 110px;
-    border-width: 0px;
-    width: 200px;
 }
