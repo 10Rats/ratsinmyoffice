@@ -51,10 +51,6 @@ audio {
     margin-right: -5px;
 }
 
-.blue { 
-    color: blue;
-}
-
 .hometitle {
     display: inline-block;
     font-size: 14px;
@@ -72,8 +68,4 @@ audio {
     width: 100%;
     height: auto;
     float: right;
-}
-
-#aboutmepic {
-    border-width: 0px;
 }
