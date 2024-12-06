@@ -16,7 +16,7 @@ var local_timeline = [
     },
     {
         year: "1970",
-        description: "During New Year's, Reese, Trenchard, and Ross went missing. Afterwards, objects from Deviation Omega started to appear in local Spacetime. Field Studies Institute was created to gather and study these objects.<br><br><a href='https://fieldstudiesinstitute.org/databank/obj_archive/twin_apollo' target='_blank'>twin_apollo</a> was discovered in Orange Lake, FL.",
+        description: "During New Year's Eve, Reese, Trenchard, and Ross went missing. Afterwards, objects from Deviation Omega started to appear in local Spacetime. Field Studies Institute was created to gather and study these objects.<br><br><a href='https://fieldstudiesinstitute.org/databank/obj_archive/twin_apollo' target='_blank'>twin_apollo</a> was discovered in Orange Lake, FL.",
         image: "./local1970.jpg"
     },
     {
@@ -129,7 +129,7 @@ var omega_timeline = [
     },
     {
         year: "1970",
-        description: "During New Year's, Omega Arthur Reese was found dead.",
+        description: "During New Year's Eve, Omega Arthur Reese was found dead.",
         image: "../missing2.svg"
     },
     {
