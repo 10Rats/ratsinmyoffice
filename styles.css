@@ -13,8 +13,8 @@ p, ul {
     margin: 0px;
 }
 
-a, a:visited {
-    color: blue;
+a {
+    color: rgb(0, 72, 255);
     text-decoration: none;
 }
 
@@ -35,7 +35,6 @@ img {
 }
 
 audio {
-    border-radius: 0;
     width: 100%;
 }
 
@@ -46,9 +45,13 @@ audio {
     padding: 5px;
 }
 
+.quotation {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
 .quotation p {
     display: inline-block;
-    font-style: italic;
     margin-right: -5px;
 }
 

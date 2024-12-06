@@ -1,0 +1,20 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_58_2)">
+<rect width="300" height="400" transform="translate(400) rotate(90)" fill="white"/>
+<line x1="400" y1="295" x2="340" y2="295" stroke="black" stroke-width="10"/>
+<line x1="395" y1="300" x2="395" y2="240" stroke="black" stroke-width="10"/>
+<line x1="8.74228e-07" y1="5" x2="60" y2="5.00001" stroke="black" stroke-width="10"/>
+<line x1="5" y1="2.18557e-07" x2="5" y2="60" stroke="black" stroke-width="10"/>
+<line x1="395" y1="2.18557e-07" x2="395" y2="60" stroke="black" stroke-width="10"/>
+<line x1="400" y1="5" x2="340" y2="5.00001" stroke="black" stroke-width="10"/>
+<line x1="5" y1="300" x2="5.00001" y2="240" stroke="black" stroke-width="10"/>
+<line y1="295" x2="60" y2="295" stroke="black" stroke-width="10"/>
+<line x1="242.465" y1="193.507" x2="156.262" y2="107.303" stroke="black" stroke-width="15"/>
+<line x1="156.493" y1="192.701" x2="242.697" y2="106.497" stroke="black" stroke-width="15"/>
+</g>
+<defs>
+<clipPath id="clip0_58_2">
+<rect width="300" height="400" fill="white" transform="translate(400) rotate(90)"/>
+</clipPath>
+</defs>
+</svg>
