@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>ERROR</title>
+<script>
+            window.onload = randomizeText;
+            document.addEventListener('mousemove', (e) => {
+                const mouseX = e.clientX;
+                const mouseY = e.clientY;
+
+                const anchor = document.getElementById('anchor')
+                const rect = anchor.getBoundingClientRect();
+                const anchorX = rect.left + rect.width / 2;
+                const anchorY = rect.top + rect.height / 2;
+
+                const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
+                console.log(angleDeg)
+
+                const eyes = document.querySelectorAll('.eye')
+                eyes.forEach(eye => {
+                    eye.style.transform = `rotate(${90 + angleDeg}deg)`;
+                })
+            })
+            function angle(cx, cy, ex, ey) {
+                const dy = ey - cy;
+                const dx = ex - cx;
+                const rad = Math.atan2(dy, dx);
+                const deg = rad * 180 / Math.PI;
+                return deg;
+            }
+            function randomizeText() {
+                const list = ["What are you doing here? You can't see anything in the dark.", "The creatures inside the walls. I saw them on TV once. I wonder what they look like in real life.", "I've been sitting here for hours, waiting for them to come out.", "I think you should leave. I don't want to be watched.", "Food seems to be the only thing that keeps me happy.", "Sometimes, I look out the window to watch the birds. There's not much things to do in this place."]
+                const i = Math.floor(Math.random() * list.length);
+                const dialogue = document.getElementById('dialogue')
+                dialogue.textContent = list[i];
+            }
+        </script>
+<style>
+            body {
+                background-color: #000;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+            }
+            #dialogue {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 20px;
+                width: 500px;
+                word-break: break-word;
+            }
+            #outergrid {
+                display: grid;
+                grid-template-columns: auto 500px;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 350px;
+            }
+            #eyegrid {
+                margin-top: 80px;
+                display: grid;
+                grid-template-columns: 150px 150px;
+            }
+            #eyes, #eyes img {
+                position: relative;
+                bottom: 27px;
+                left: 15px;
+            }
+        </style>
+</head>
+<body>
+<div id="outergrid">
+<div id="eyegrid">
+<div>
+<img id="anchor" src="./assets/eye.svg">
+<div id="eyes">
+<img class="eye" src="./assets/pupil.svg">
+</div>
+</div>
+<div>
+<img id="anchor" src="./assets/eye.svg">
+<div id="eyes">
+<img class="eye" src="./assets/pupil.svg">
+</div>
+</div>
+</div>
+<p id="dialogue"></p>
+</div>
+</body>
+</html>
