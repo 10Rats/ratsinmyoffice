@@ -120,11 +120,11 @@ var omega_timeline = [
     },
     {
         year: "1974",
-        description: "The Parnu Peach Accords was signed by the U.S. and Soviet Union to signify unity between the two, rendering the COOP network useless.<br><br>The abandoned networks were used by Trenchard-Ross to study the properties of The Garden."
+        description: "The Pärnu Peace Accords was signed by the U.S. and Soviet Union to signify collaboration between the two, rendering the COOP network useless.<br><br>The abandoned networks were used by Trenchard-Ross to study the properties of The Garden."
     },
     {
         year: "1977",
-        description: "William Lindmore was elected as president, <cite>The Garden of the Multiverse</cite> was reprinted, and a restaurant in Ovando, MT was purchased by Trenchard-Ross."
+        description: "William Lindmore was elected as president, <cite>The Garden of the Multiverse</cite> was reprinted, and a restaurant in Ovando was purchased by Trenchard-Ross."
     },
     {
         year: "1978",
@@ -133,7 +133,6 @@ var omega_timeline = [
     {
         year: "1983",
         description: "The mission to colonize Mars was created with the collaboration of CLAUDE."
-
     },
     {
         year: "~1984",
