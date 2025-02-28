@@ -52,11 +52,10 @@ audio {
 .quotation {
     font-family:'Courier New', Courier, monospace;
     padding: 10px;
-}
-
-.quotation p {
-    display: inline-block;
-    margin-right: -5px;
+    & > p {
+        display: inline-block;
+        margin-right: -5px;
+    }
 }
 
 .hometitle {
@@ -70,10 +69,9 @@ audio {
     display: grid;
     grid-template-columns: 65% 25%;
     column-gap: 10%;
-}
-
-.splittwo img{
-    width: 100%;
-    height: auto;
-    float: right;
+    & > img {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
 }

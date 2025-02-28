@@ -1,39 +1,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ratsinmyoffice.org/</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
     <loc>https://ratsinmyoffice.org/about</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
     <loc>https://ratsinmyoffice.org/misc/</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
     <loc>https://ratsinmyoffice.org/arg/</loc>
-    <lastmod>2025-02-15</lastmod>
-  </url>
-  <url>
-    <loc>https://ratsinmyoffice.org/misc/mbrip</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
     <loc>https://ratsinmyoffice.org/arg/gloamtourism</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
-    <loc>https://ratsinmyoffice.org/arg/fieldstudies</loc>
-    <lastmod>2025-02-15</lastmod>
+    <loc>https://ratsinmyoffice.org/misc/mbrip</loc>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
-    <loc>https://ratsinmyoffice.org/arg/beckham</loc>
-    <lastmod>2025-02-15</lastmod>
+    <loc>https://ratsinmyoffice.org/arg/fieldstudies/component1</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/fieldstudies/lore</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part1</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part2</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part3</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part4</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part5</loc>
+    <lastmod>2025-02-28</lastmod>
+  </url>
+  <url>
+    <loc>https://ratsinmyoffice.org/arg/beckham/part6</loc>
+    <lastmod>2025-02-28</lastmod>
   </url>
   <url>
     <loc>https://ratsinmyoffice.org/arg/silenthill</loc>
-    <lastmod>2025-02-15</lastmod>
+    <lastmod>2025-02-28</lastmod>
   </url>
 </urlset>
 
